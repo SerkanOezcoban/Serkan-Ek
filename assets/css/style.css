@@ -1,0 +1,61 @@
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #2d75e1;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header styles */
+.header {
+    background-color: #100576; /* Ändere die Hintergrundfarbe */
+    color: #fff; /* Schriftfarbe */
+    padding: 1em 0;
+    text-align: center;
+}
+
+.header nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.header nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+.header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.header nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Footer styles */
+.footer {
+    background-color: #444; /* Ändere die Hintergrundfarbe */
+    color: #fff; /* Schriftfarbe */
+    text-align: center;
+    padding: 1em 0;
+}
+
+/* Form styles */
+form {
+    margin-top: 2em;
+}
+
+form input, form textarea {
+    display: block;
+    width: 100%;
+    margin-bottom: 1em;
+}
+
+form input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 0.5em 1em;
+}
